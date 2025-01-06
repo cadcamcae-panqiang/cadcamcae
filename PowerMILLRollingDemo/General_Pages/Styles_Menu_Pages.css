@@ -1,0 +1,158 @@
+body {
+	background-color:#dcdcdc;
+	margin:0px;
+	}
+
+/*** TOP HEADER BAR STYLES **/
+.header-background-top {
+	background-image:url(../General_Images/header_bg.jpg);
+	background-repeat:repeat-x;
+	height:65px;
+	}
+	
+.header-logo {
+	background-image:url(../General_Images/Autodesk.png);
+	background-repeat:no-repeat;
+	width:260px;
+	height:45px;
+	}
+
+.header-navigation {
+	background-image:url(../General_Images/header_nav_grey_bg.jpg);
+	background-repeat:repeat-x;
+	height:39px;
+	}
+
+/*** TABLE STYLES **/
+.menu-table-top-left {
+	background-image:url(../General_Images/menu-table-top-left.jpg);
+	background-repeat:no-repeat;
+	background-color:#6a6a6a;
+	height:26px;
+	width:25px;
+	}
+
+.menu-table-top-right {
+	background-image:url(../General_Images/menu-table-top-right.jpg);
+	background-repeat:no-repeat;
+	background-color:#6a6a6a;
+	height:26px;
+	width:25px;
+	}
+
+.menu-table-bottom-right {
+	background-image:url(../General_Images/menu-table-bottom-right.jpg);
+	background-repeat:no-repeat;
+	background-color:#6a6a6a;
+	height:26px;
+	width:25px;
+	}
+
+.menu-table-bottom-left {
+	background-image:url(../General_Images/menu-table-bottom-left.jpg);
+	background-repeat:no-repeat;
+	background-color:#6a6a6a;
+	height:26px;
+	width:25px;
+	}
+
+.menu-table-background {
+	background-color:#6a6a6a;
+	}
+
+.menu-table-tab-left-home {
+	background-image:url(../General_Images/tab_home.jpg);
+	background-repeat:no-repeat;
+	background-position:center left;
+	background-color:#6a6a6a;
+	height:192px;
+	width:35px;
+	}
+
+.menu-table-tab-left-menu {
+	background-image:url(../General_Images/tab_menu.jpg);
+	background-repeat:no-repeat;
+	background-position:center left;
+	background-color:#6a6a6a;
+	height:192px;
+	width:35px;
+	}
+
+/***MENU HEADING LINK STYLES **/
+.menu-left {
+	background-image:url(../General_Images/menu-left.jpg);
+	background-repeat:no-repeat;
+	height:36px;
+	width:18px;
+	}
+
+.menu-right {
+	background-image:url(../General_Images/menu-right.jpg);
+	background-repeat:no-repeat;
+	height:36px;
+	width:54px;
+	}
+
+/*** MENU TEXT ***/
+.menu {
+	background-image:url(../General_Images/menu-background.jpg);
+	background-repeat:repeat-x;
+	}
+
+.menu:hover {
+	background-image:url(../General_Images/menu-background-hover.jpg);
+	background-repeat:repeat-x;
+	}
+
+.menu-text {
+	width:100%;
+	height:36px;
+	line-height:36px;
+	cursor:pointer;
+	padding-left:10px;
+	padding-right:10px;
+	}
+
+/*** PLAYER ***/
+.player {
+	background-image:url(../General_Images/menu-right-player.jpg);
+	background-repeat:no-repeat;
+	}
+
+.player:hover {
+	background-image:url(../General_Images/menu-right-player-hover.jpg);
+	background-repeat:no-repeat;
+	}
+	
+.player-spacer {
+	width:54px;
+	height:36px;
+	cursor:pointer;
+	}
+
+/*** TEXT STYLES **/
+
+/* Menu Links */
+a {
+	color:#000000;
+	font-family:STXihei sans-serif;
+	font-size:85%;
+	font-weight:bold;
+	text-decoration:none;
+	}
+
+/* Heading 1 - Biggest Heading */
+h1 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:x-large;
+	color:#dcdcdc;
+	margin-left:1%;
+	}
+
+p {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:large;
+	font-weight:bold;
+	color:#dcdcdc;
+	margin-left:1%;
+	}

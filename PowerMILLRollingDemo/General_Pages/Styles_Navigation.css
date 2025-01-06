@@ -1,0 +1,44 @@
+/*** HOME ***/
+.home {
+	background-image:url(../General_Images/home1.jpg);
+	background-repeat:no-repeat;
+	}
+
+.home:hover {
+	background-image:url(../General_Images/home2.jpg);
+	background-repeat:no-repeat;
+	}
+	
+.home-spacer {
+	width:37px;
+	height:39px;
+	cursor:pointer;
+	}
+	
+/*** BACK ***/
+.back {
+	background-image:url(../General_Images/back1.jpg);
+	background-repeat:no-repeat;
+	}
+	
+.back:hover {
+	background-image:url(../General_Images/back2.jpg);
+	background-repeat:no-repeat;
+	}
+
+.back-spacer {
+	width:38px;
+	height:39px;
+	cursor:pointer;
+	}
+
+/*** COMMAND WINDOW FOR POWERMILL ***/
+.command {
+	background-image:url(../General_Images/up1.jpg);
+	background-repeat:no-repeat;
+	}
+	
+.command:hover {
+	background-image:url(../General_Images/up2.jpg);
+	background-repeat:no-repeat;
+	}

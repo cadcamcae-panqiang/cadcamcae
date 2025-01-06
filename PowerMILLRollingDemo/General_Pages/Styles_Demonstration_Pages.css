@@ -1,0 +1,201 @@
+body{
+	background-color:#dcdcdc;
+	margin:0px;
+	}
+
+/*** TOP HEADER BAR STYLES ***/
+.header-background-top {
+	background-image:url(../General_Images/header_bg.jpg);
+	background-repeat:repeat-x;
+	height:65px;
+	}
+
+.header-logo {
+	background-image:url(../General_Images/Autodesk.png);
+	background-repeat:no-repeat;
+	width:260px;
+	height:45px;
+	}
+	
+
+.header-navigation {
+	background-image:url(../General_Images/header_nav_grey_bg.jpg);
+	background-repeat:repeat-x;
+	height:39px;
+	}
+
+.header-navigation-bottom {
+	background-image:url(../General_Images/header_nav_grey_bg.jpg);
+	background-repeat:repeat-x;
+	height:23px;
+	}
+
+/*** TABLE STYLES ***/
+.left-background-slice {
+	background-image:url(../General_Images/left-background-slice.jpg);
+	background-repeat:repeat-y;
+	}
+
+.right-background-slice {
+	background-image:url(../General_Images/right-background-slice.jpg);
+	background-repeat:repeat-y;
+	}
+
+.top-left {
+	background-image:url(../General_Images/top-left.jpg);
+	background-repeat:no-repeat;
+	height:45px;
+	width:24px;
+	}
+
+.top-right {
+	background-image:url(../General_Images/top-right.jpg);
+	background-repeat:no-repeat; 
+	height:45px;
+	width:25px;
+	}
+
+.bottom-right {
+	background-image:url(../General_Images/bottom-right.jpg);
+	background-repeat:no-repeat;
+	}
+
+.bottom-left {
+	background-image:url(../General_Images/bottom-left.jpg);
+	background-repeat:no-repeat;
+	}
+
+.header-background {
+	background-image:url(../General_Images/header-slice.jpg);
+	background-repeat:repeat-x;
+	}
+
+.footer-background {
+	background-image:url(../General_Images/footer-slice.jpg);
+	background-repeat:repeat-x;
+	}
+
+.table-background {
+	background-color:#FFFFFF;
+	}
+
+/*** PLAYER ***/
+.player {
+	background-image:url(../General_Images/play1.gif);
+	background-repeat:no-repeat;
+	background-position:center bottom;
+	}
+
+.player:hover {
+	background-image:url(../General_Images/play2.jpg);
+	background-repeat:no-repeat;
+	background-position:center bottom;
+	}
+	
+.player-spacer {
+	width:34px;
+	height:38px;
+	cursor:pointer;
+	}
+
+/*** PRESENTATION ***/
+.presentation {
+	background-image:url(../General_Images/powerpoint1.jpg);
+	background-repeat:no-repeat;
+	background-position:center bottom;
+	}
+
+.presentation:hover {
+	background-image:url(../General_Images/powerpoint2.jpg);
+	background-repeat:no-repeat;
+	background-position:center bottom;
+	}
+
+.presentation-grey {
+	background-image:url(../General_Images/powerpoint1_grey.gif);
+	background-repeat:no-repeat;
+	background-position:center bottom;
+	}
+
+.presentation-grey:hover {
+	background-image:url(../General_Images/powerpoint2_grey.gif);
+	background-repeat:no-repeat;
+	background-position:center bottom;
+	}
+
+.presentation-spacer {
+	width:34px;
+	height:38px;
+	cursor:pointer;
+	}
+
+/*** INFO IMPORT ***/
+.info {
+	background-image:url(../General_Images/info1.jpg);
+	background-repeat:no-repeat;
+	background-position:center bottom;
+	}
+
+.info:hover {
+	background-image:url(../General_Images/info2.jpg);
+	background-repeat:no-repeat;
+	background-position:center bottom;
+	}
+	
+.info-spacer {
+	width:34px;
+	height:38px;
+	cursor:pointer;
+	}
+
+/*** FOLDER IMPORT ***/
+.folder {
+	background-image:url(../General_Images/import1.jpg);
+	background-repeat:no-repeat;
+	background-position:center bottom;
+	}
+
+.folder:hover {
+	background-image:url(../General_Images/import2.jpg);
+	background-repeat:no-repeat;
+	background-position:center bottom;
+	}
+	
+.folder-spacer {
+	width:41px;
+	height:42px;
+	cursor:pointer;
+	}
+
+/*** TEXT STYLES ***/
+
+/*table headings*/
+.table-heading {
+	margin-top:4px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;	
+	font-weight:bold;
+	color:#333333;
+	}
+
+/*Paragraphs*/
+p {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:small;
+	margin-left:1%;
+	}
+
+/*Heading 1 - Biggest Heading*/
+h1 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:x-large;
+	color:#333333;
+	margin-left:1%;
+	}
+
+/*Bullet Points*/
+ul li {
+	padding:0% 0.5% 0.5% 0.5%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:small;
+	}

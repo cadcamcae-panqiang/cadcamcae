@@ -1,0 +1,188 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notion Inspired Layout</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            background-color: #1e1e1e;
+            color: #fff;
+            display: flex;
+        }
+        .sidebar {
+            width: 280px;
+            background-color: #252526;
+            padding: 20px;
+            height: 100vh;
+            position: fixed;
+            overflow-y: auto;
+        }
+        .sidebar h2 {
+            font-size: 16px;
+            margin-bottom: 20px;
+            color: #c8c8c8;
+            white-space: nowrap;
+        }
+        .logo {
+            width: 60px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+        .sidebar li {
+            margin-bottom: 15px;
+            white-space: nowrap;
+        }
+        .sidebar a {
+            text-decoration: none;
+            color: #adadad;
+            font-size: 12px;
+            transition: color 0.3s, transform 0.3s;
+        }
+        .sidebar a:hover {
+            color: #ffffff;
+            transform: scale(1.05);
+        }
+        .main-content {
+            margin-left: 300px;
+            padding: 20px;
+            flex-grow: 1;
+        }
+        .top-section {
+            padding: 0;
+            margin-bottom: 20px;
+            background-color: #252526;
+            border-radius: 8px;
+            text-align: center;
+            overflow: hidden;
+        }
+        .top-section img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            justify-items: center;
+        }
+        .gallery-item {
+            background-color: #333;
+            border-radius: 8px;
+            overflow: hidden;
+            width: 100%;
+            max-width: 350px;
+            transition: transform 0.2s;
+        }
+        .gallery-item:hover {
+            transform: scale(1.05);
+        }
+        .gallery-item img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+        }
+        .description {
+            font-size: 14px;
+            color: #ddd;
+            margin: 10px;
+            text-align: center;
+        }
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+        a:hover .description {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <img src="XC-logo.jpg" alt="Logo" class="logo">
+        <h2>资源导航</h2>
+        <ul>
+
+        <li><a href="PowerMILL/PowerMILL_Default.html">PowerMILL 用于制造的专业高速加工和 5 轴加工软件</a></li>
+    
+        <li><a href="Powershape/Powershape_Default.html">PowerSHAPE 复杂模型制造准备软件</a></li>
+    
+        <li><a href="https://www.autodesk.com.cn/products/powerinspect/subscribe">PowerINSPECT 多设备三维检测软件</a></li>
+    
+        <li><a href="https://www.autodesk.com.cn/products/fusion-360/overview">Fusion360 集成 CAD、CAM 和 CAE 软件</a></li>
+    
+        <li><a href="https://www.autodesk.com.cn/products/featurecam/overview">FeatureCAM 自动化数控编程软件</a></li>
+    
+        <li><a href="https://www.autodesk.com/products/netfabb/overview?plc=F360NFP&term=1-YEAR&support=ADVANCED&quantity=1">NET FABB 增材制造软件</a></li>
+    
+        <li><a href="https://www.autodesk.com.cn/products/moldflow/overview">MOLDFLOW 塑料注塑成型仿真软件</a></li>
+    
+        <li><a href="C:/PowerMILLRollingDemo/PartMaker/PartMaker_Default.html">PartMaker 瑞士型精密车床编程软件</a></li>
+    
+        <li><a href="https://www.autodesk.com.cn/products/cfd/subscribe">CFD 计算流体力学仿真软件</a></li>
+    
+        </ul>
+    </div>
+    <div class="main-content">
+        <div class="top-section">
+            <img src="https://via.placeholder.com/1920x400?text=Top+Section+Image+Full+Width" alt="Top Image Placeholder">
+        </div>
+        <div class="gallery">
+
+        <a href="PowerMILL/PowerMILL_Default.html" class="gallery-item">
+            <img src="https://via.placeholder.com/300x200?text=PowerMILL" alt="PowerMILL 用于制造的专业高速加工和 5 轴加工软件">
+            <div class="description">PowerMILL 用于制造的专业高速加工和 5 轴加工软件</div>
+        </a>
+    
+        <a href="Powershape/Powershape_Default.html" class="gallery-item">
+            <img src="https://via.placeholder.com/300x200?text=PowerSHAPE" alt="PowerSHAPE 复杂模型制造准备软件">
+            <div class="description">PowerSHAPE 复杂模型制造准备软件</div>
+        </a>
+    
+        <a href="https://www.autodesk.com.cn/products/powerinspect/subscribe" class="gallery-item">
+            <img src="https://via.placeholder.com/300x200?text=PowerINSPECT" alt="PowerINSPECT 多设备三维检测软件">
+            <div class="description">PowerINSPECT 多设备三维检测软件</div>
+        </a>
+    
+        <a href="https://www.autodesk.com.cn/products/fusion-360/overview" class="gallery-item">
+            <img src="https://via.placeholder.com/300x200?text=Fusion360" alt="Fusion360 集成 CAD、CAM 和 CAE 软件">
+            <div class="description">Fusion360 集成 CAD、CAM 和 CAE 软件</div>
+        </a>
+    
+        <a href="https://www.autodesk.com.cn/products/featurecam/overview" class="gallery-item">
+            <img src="https://via.placeholder.com/300x200?text=FeatureCAM" alt="FeatureCAM 自动化数控编程软件">
+            <div class="description">FeatureCAM 自动化数控编程软件</div>
+        </a>
+    
+        <a href="https://www.autodesk.com/products/netfabb/overview?plc=F360NFP&term=1-YEAR&support=ADVANCED&quantity=1" class="gallery-item">
+            <img src="https://via.placeholder.com/300x200?text=NET+FABB" alt="NET FABB 增材制造软件">
+            <div class="description">NET FABB 增材制造软件</div>
+        </a>
+    
+        <a href="https://www.autodesk.com.cn/products/moldflow/overview" class="gallery-item">
+            <img src="https://via.placeholder.com/300x200?text=MOLDFLOW" alt="MOLDFLOW 塑料注塑成型仿真软件">
+            <div class="description">MOLDFLOW 塑料注塑成型仿真软件</div>
+        </a>
+    
+        <a href="C:/PowerMILLRollingDemo/PartMaker/PartMaker_Default.html" class="gallery-item">
+            <img src="https://via.placeholder.com/300x200?text=PartMaker" alt="PartMaker 瑞士型精密车床编程软件">
+            <div class="description">PartMaker 瑞士型精密车床编程软件</div>
+        </a>
+    
+        <a href="https://www.autodesk.com.cn/products/cfd/subscribe" class="gallery-item">
+            <img src="https://via.placeholder.com/300x200?text=CFD" alt="CFD 计算流体力学仿真软件">
+            <div class="description">CFD 计算流体力学仿真软件</div>
+        </a>
+    
+        </div>
+    </div>
+</body>
+</html>

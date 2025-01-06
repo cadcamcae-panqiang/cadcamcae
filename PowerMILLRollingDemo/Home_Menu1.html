@@ -1,0 +1,168 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Rolling Demo Home Menu</title>
+
+<!--Styles-->
+<link href="General_Pages\Styles_Menu_Pages.css" rel="stylesheet" type="text/css" />
+<link href="General_Pages\Styles_Navigation.css" rel="stylesheet" type="text/css" />
+
+<!--Scripts-->
+<script type="text/javascript" src="General_Pages\General_Scripts\General_Videos.js"></script>
+<script language="javascript" type="text/javascript">
+var PM = window.external;
+
+// <!CDATA[
+function window_onload(){
+   PM.DoCommand("PATHSELECTOR PATHLISTS LISTCHANGE MACROPATHS");
+   PM.DoCommand("PATHSELECTOR PATHLISTS ADDTOP PROJSELECTOR 'C:/PowerMILLRollingDemo/'");
+   <!--PM.DoCommand("VIEW BACKGROUND IMAGE FILEOPEN 'C:/PowerMILLRollingDemo/General_Images/PM9_PM_Background.jpg'");-->
+}
+// ]]>
+</script>
+<script language="vbscript">
+'' Get the PowerMILL object.
+set powermill = window.external
+
+'' A subroutine to display a help alias.
+Sub DisplayHelpAlias(sAlias)
+  Dim sCommand
+  sCommand = "PMILLHELP ALIAS " + sAlias
+  powermill.DoCommand(sCommand)
+End Sub
+</script>
+
+</head>
+
+<!--This area is for the Header and includes the Navigation controls-->
+
+<body>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr class="header-background-top">
+    <td><div class="header-logo">&nbsp;</div></td>
+  </tr>
+</table>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr class="header-navigation">
+    <td width="37"><div class="home"><a href="Home.html" target="_top" title="Home"><div class="home-spacer"></div></a></div></td>
+    <td width="38"><div class="back"><a href="javascript:history.back()" title="Back"><div class="back-spacer"></div></a></div></td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+
+
+<!--The Menu Starts Here-->
+
+<table width="98%" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td class="menu-table-top-left menu-table-background">&nbsp;</td>
+    <td class="menu-table-background">&nbsp;</td>
+    <td class="menu-table-top-right menu-table-background"></td>
+  </tr>
+  <tr>
+    <td class="menu-table-background menu-table-tab-left-home"></td>
+    <td class="menu-table-background"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+		
+      <tr class="menu-table-background">
+        <td height="36">&nbsp;</td>
+        <td><p>Autodesk 制造专业化 教学资源包&nbsp; &nbsp; &nbsp; </p></td>
+        <!--td height="36">&nbsp;</td-->
+      </tr>
+		
+		<tr class="menu-table-background">
+        <td height="36" >&nbsp;</td>
+        <td>&nbsp;</td>
+        <!--td height="36" >&nbsp;</td-->
+      </tr>
+     
+	
+            <tr>
+        <td width="18" height="30" ><div class="menu-left">&nbsp;</div></td>
+		<td>
+			<div class="menu"><a href="PowerMILL\PowerMILL_Default.html" target="_parent" title="Custom Demonstrations"><div class="menu-text">PowerMILL  用于制造的专业高速加工和 5 轴加工软件
+</div></a></div>
+	  	</td>
+        <td height="36" ><div class="menu-right">&nbsp;</div></td>
+      </tr>		
+            <tr>
+        <td height="36" ><div class="menu-left">&nbsp;</div></td>
+		<td>
+			<div class="menu"><a href="Powershape\Powershape_Default.html" target="_parent" title="Custom Demonstrations"><div class="menu-text">PowerSHAPE 复杂模型制造准备软件
+</div></a></div>
+	  	</td>
+        <td height="36" ><div class="menu-right">&nbsp;</div></td>
+      </tr>
+		
+		            <tr>
+        <td height="36" ><div class="menu-left">&nbsp;</div></td>
+		<td>
+			<div class="menu"><a href="https://www.autodesk.com.cn/products/powerinspect/subscribe" target="_blank" title="Custom Demonstrations"><div class="menu-text">PowerINSPECT 多设备三维检测软件
+</div></a></div>
+	  	</td>
+        <td height="36" ><div class="menu-right">&nbsp;</div></td>
+      </tr>
+		            <tr>
+        <td height="36" ><div class="menu-left">&nbsp;</div></td>
+		<td>
+			<div class="menu"><a href="https://www.autodesk.com.cn/products/fusion-360/overview" target="_blank" title="Custom Demonstrations"><div class="menu-text">Fusion360 集成 CAD、CAM 和 CAE 软件
+</div></a></div>
+	  	</td>
+        <td height="36" ><div class="menu-right">&nbsp;</div></td>
+      </tr>
+		            <tr>
+        <td height="36" ><div class="menu-left">&nbsp;</div></td>
+		<td>
+			<div class="menu"><a href="https://www.autodesk.com.cn/products/featurecam/overview" target="_blank" title="Custom Demonstrations"><div class="menu-text">FeatureCAM 自动化数控编程软件</div></a></div>
+	  	</td>
+        <td height="36" ><div class="menu-right">&nbsp;</div></td>
+      </tr>
+		            <tr>
+        <td height="36" ><div class="menu-left">&nbsp;</div></td>
+		<td>
+			<div class="menu"><a href="https://www.autodesk.com/products/netfabb/overview?plc=F360NFP&term=1-YEAR&support=ADVANCED&quantity=1" target="_blank" title="Custom Demonstrations"><div class="menu-text">NET FABB 增材制造软件
+</div></a></div>
+	  	</td>
+        <td height="36" ><div class="menu-right">&nbsp;</div></td>
+      </tr>
+		            <tr>
+        <td height="36" ><div class="menu-left">&nbsp;</div></td>
+		<td>
+			<div class="menu"><a href="https://www.autodesk.com.cn/products/moldflow/overview" target="_blank" title="Custom Demonstrations"><div class="menu-text">MOLDFLOW 塑料注塑成型仿真软件</div></a></div>
+	  	</td>
+        <td height="36" ><div class="menu-right">&nbsp;</div></td>
+      </tr>
+		            <tr>
+        <td height="36" ><div class="menu-left">&nbsp;</div></td>
+		<td>
+			<div class="menu"><a href="C:\PowerMILLRollingDemo\PartMaker\PartMaker_Default.html" target="_parent" title="Custom Demonstrations"><div class="menu-text">PartMaker 瑞士型精密车床编程软件</div></a></div>
+	  	</td>
+        <td height="36" ><div class="menu-right">&nbsp;</div></td>
+      </tr>
+		            <tr>
+        <td height="36" ><div class="menu-left">&nbsp;</div></td>
+		<td>
+			<div class="menu"><a href="https://www.autodesk.com.cn/products/cfd/subscribe" target="_blank" title="Custom Demonstrations">
+			<div class="menu-text">CFD 计算流体力学仿真软件</div></a></div>
+	  	</td>
+        <td height="36" ><div class="menu-right">&nbsp;</div></td>
+      </tr>
+		<tr class="menu-table-background">
+        <td height="36" >&nbsp;</td>
+        <td>&nbsp;</td>
+        <td height="36" >&nbsp;</td>
+      </tr>
+
+	<tr class="menu-table-background">
+        <td height="20">&nbsp;</td>
+        <td><p>© 版权所有 烟台市禧辰软件有限公司
+          <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; www.cadcamcae.cn</p></td>
+    </tr>
+
+    </table></td>
+<td class="menu-table-background">&nbsp;</td>
+</tr>
+</table>
+</body>
+</html>
